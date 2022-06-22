@@ -246,9 +246,9 @@ export default function App() {
                 placeholder='Address..'
                 styles={{
                   textInputContainer: { height: '100%' },
-                  textInput: {  paddingLeft: 0, fontSize: 14, marginRight: 10, outlineStyle: 'none' }
+                  textInput: { paddingLeft: 0, fontSize: 14, marginRight: 10, outlineStyle: 'none' }
                 }}
-                onPress={(data) => {console.log(data); addressChangeHandler(data.description)}}
+                onPress={(data) => { console.log(data); addressChangeHandler(data.description) }}
                 query={{ key: 'AIzaSyDSBuX4e0o6-0wFa8xsXZYrYRBEd3atRtQ', language: 'it' }}
                 requestUrl={{
                   url: "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api",
